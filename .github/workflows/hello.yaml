@@ -88,3 +88,9 @@ jobs:
         run: npm i
       - name: Run tests
         run: npm test
+  deploy_app:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: deploy
+        run: echo "Deployed"
