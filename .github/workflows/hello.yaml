@@ -3,7 +3,7 @@ name: test workflows
 on: 
   push:
     branches:
-      - master
+      - man
 jobs:
   build:
     runs-on: ubuntu-latest
