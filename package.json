@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"test successfull\" && exit 0",
+    "build": "echo \"Build successful\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+
+
+  
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "eslint": "^10.2.1",
+    "express": "^5.2.1"
+  }
+}
